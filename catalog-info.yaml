@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Amplication-device-management
+  description: A service to manage entities like Students, Man, Girl, Car, Balloon, Remote Control, Laptop, and Phone, with authentication features.
+  labels:
+    vendor: "amplication"
+  annotations:
+    github.com/team-slug: "backstage/maintainers"
+    github.com/project-slug: "backstage/backstage"
+  tags:
+    - ".NET"
+  links:
+    - url: https://server.amplication.com/cm3hllotd02e3a95pmcj7crdz
+      title: Amplication Platform
+spec:
+  type: service
+  lifecycle: production
+  owner: development
